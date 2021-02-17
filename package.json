@@ -14,7 +14,15 @@
   "author": "Agustina Corvo <aguscorvo@gmail.com>",
   "license": "MIT",
   "bin": {
-    "random-quote": "./bin/global.js"
+    "random-quote": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aguscorvo/npm-random-tech-quotes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aguscorvo/npm-random-tech-quotes/issues"
+  },
+  "homepage": "https://github.com/aguscorvo/npm-random-tech-quotes#readme"
 }
