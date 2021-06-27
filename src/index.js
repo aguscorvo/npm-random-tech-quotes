@@ -12,9 +12,14 @@
 //   'Technology is a useful servant but a dangerous master - Christian Lous Lange',
 // ];
 
-const randomQuote = () => {
-  const quote = quotes[Math.floor(Math.random() * quotes.length)];
-  console.log(quote);
+const fetch = require('node-fetch');
+
+const randomQuote = async () => {
+  const response = await fetch(
+    'https://api.quotable.io/random?tags=technology,famous-quotes'
+  );
+  const quote = await response.json();
+  console.log(`${quote.content} — ${quote.author}`);
 };
 
 module.exports = { randomQuote };

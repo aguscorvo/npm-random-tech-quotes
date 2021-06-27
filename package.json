@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/aguscorvo/npm-random-tech-quotes/issues"
   },
-  "homepage": "https://github.com/aguscorvo/npm-random-tech-quotes#readme"
+  "homepage": "https://github.com/aguscorvo/npm-random-tech-quotes#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
 }
