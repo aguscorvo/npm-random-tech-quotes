@@ -17,7 +17,7 @@ random-quote
 
 ## Contributing
 
-If someone wants to add or improve something, I invite you to collaborate directly in this repository: [random-tech-quotes](https://github.com/aguscorvo/random-tech-quotes)
+If someone wants to add or improve something, I invite you to collaborate directly in this repository: [random-tech-quotes](https://github.com/aguscorvo/npm-random-tech-quotes)
 
 ## License
 
